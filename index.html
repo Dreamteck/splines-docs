@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="/node_modules/docsify/lib/themes/vue.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'DREAMTECK SPLINES',
+      nameLink: "https://dreamteck.io/",
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      repo: '',
+      logo: '/img/color-logo.png',
+      loadSidebar: true,
+      subMaxLevel: 4,
+      homepage: "./pages/getting_started/getting_started.md",
+      search: {
+        maxAge: 8640,
+        paths: "auto",
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        hideOtherSidebarContent: true,
+      },
+      themeColor: "#0da3b8",
+    }
+  </script>
+  <script type="text/javascript" src="/node_modules/docsify/lib/docsify.min.js"></script>
+  <script type="text/javascript" src="/node_modules/prismjs/components/prism-csharp.min.js"></script>
+  <script type="text/javascript" src="/node_modules/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
