@@ -118,6 +118,28 @@ Surfaces can also be extruded along another spline. Drag the SplineComputer comp
 ![](./_images/099.png)
 
 ![](./_images/100.png)
+
+## Multi Spline Surface Generator
+
+The Multi Spline Surface Generator creates a terrain-like mesh from multiple splines. The generated mesh spans across the splines to give a high level of control. 
+For this tool to work, there needs to be at least one additional spline linked. This can happen manually by selecting it through the Other Splines array or by clicking the "Add Spline" button which will generate a new spline and automatically link it to the generator.
+
+![](./_images/1004.png)
+
+![](./_images/1006.png)
+
+![](./_images/1005.png)
+
+To edit the surface, either edit the splines separately or use the circular gizmos that appear once the Multi Spline Surface Generator is selected. 
+
+![](./_images/1002.png)
+
+To control the resolution of the mesh along the splines, change the sample rate of the main spline (the one primarily linked in the "Spline" property of the generator). To control the resolution of the mesh in-between the splines, change the "Subdivisions" property of the generator.
+
+The Multi Spline Surface Generator supports different material IDs per segment. Enable that by toggling "Separate Material IDs" in the inspector. This will make part of the mesh disappear. To fix that, add as many materials as there are other splines to the Mesh Renderer component.
+
+![](./_images/1000.png)
+
 ## Baking Mesh Generators
 Each Mesh Generator component can be baked into a static mesh with lightmap UVs. To do that, click the “Bake Mesh” button at the bottom of the Mesh Generator’s inspector. This will open the Bake Mesh window.
 
