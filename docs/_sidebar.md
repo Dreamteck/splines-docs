@@ -12,6 +12,7 @@
 - [Length Calculator](./pages/length_calculator/length_calculator.md)
 - [Object Bender](./pages/object_bender/object_bender.md)
 - [2D Collision](./pages/2d_collision/2d_collision.md)
+- [3D Collision](./pages/3d_collision/3d_collision.md)
 - [Spline triggers](./pages/spline_triggers/spline_triggers.md)
 - [Sample Modifiers](./pages/sample_modifiers/sample_modifiers.md)
 - [Morphing Splines](./pages/morphing_splines/morphing_splines.md)
